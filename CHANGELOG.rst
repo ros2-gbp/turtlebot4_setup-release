@@ -2,6 +2,12 @@
 Changelog for package turtlebot4_setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2023-03-01)
+------------------
+* Fixed Discovery Server IP
+* Updated default configs
+* Contributors: Roni Kreinin
+
 1.0.1 (2023-02-28)
 ------------------
 * Fixed script install path
