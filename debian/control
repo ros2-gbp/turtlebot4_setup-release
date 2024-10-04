@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot4-setup
+Section: misc
+Priority: optional
+Maintainer: rkreinin <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot4-setup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, chrony, curl, libcurl4-openssl-dev, network-manager, ros-jazzy-rmw-cyclonedds-cpp, ros-jazzy-rmw-fastrtps-cpp, ros-jazzy-robot-upstart, ros-jazzy-simple-term-menu-vendor, socat, ros-jazzy-ros-workspace
+Description: Turtlebot4 setup scripts
